@@ -37,3 +37,11 @@ l
 <app/src/main/java/dev/cdcd/katrnhlli/libs/BridgeWebView.java,7\3\730899a8c32c23b9a9ad31a9972d57b955eaca6d
 m
 =app/src/main/java/dev/cdcd/katrnhlli/libs/DefaultHandler.java,c\6\c6f016c19ec1a70a74c1b9f6bb3c2839a67055a4
+r
+Bapp/src/main/java/dev/cdcd/katrnhlli/libs/BridgeWebViewClient.java,d\c\dc95f1585889c96356de995ba23b0e311d519d21
+h
+8app/src/main/java/dev/cdcd/katrnhlli/libs/JSRequest.java,4\5\457367dd6484dd88e53f5aefea03341887cd0326
+i
+9app/src/main/java/dev/cdcd/katrnhlli/libs/JSResponse.java,1\d\1d8729f5caef3de7cde8799f7a034b80f8b99468
+o
+?app/src/main/java/dev/cdcd/katrnhlli/libs/OnBridgeCallback.java,9\3\93804fbc0941034efca9069f004fa82dc58a7cab

@@ -1,17 +1,19 @@
 
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íõ¸¼8à§ÒÌÊ1
-r	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öåøñùÿÿÿÿ8à§ÒÌÊ1
+m	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íõ¸¼8åëÙ×Ê1
+r	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öåøñùÿÿÿÿ8åëÙ×Ê1
 R
-java:S1874)"0Remove this use of "pickFile"; it is deprecated.(Â˜¦úÿÿÿÿ8¨ÒÌÊ1
+java:S1874,"0Remove this use of "pickFile"; it is deprecated.(Â˜¦úÿÿÿÿ8ƒìÙ×Ê1
 R
-java:S1874/"0Remove this use of "pickFile"; it is deprecated.(Â˜¦úÿÿÿÿ8¨ÒÌÊ1
+java:S18742"0Remove this use of "pickFile"; it is deprecated.(Â˜¦úÿÿÿÿ8„ìÙ×Ê1
+N
+java:S16028",Remove useless curly braces around statement(©ÑÑÓıÿÿÿÿ8ŒìÙ×Ê1
 R
-java:S11339"5Do not forget to remove this deprecated code someday.(ÁŞıû8ˆ¨ÒÌÊ1
+java:S1133>"5Do not forget to remove this deprecated code someday.(ÁŞıû8ìÙ×Ê1
 E
-java:S11239"(Add the missing @deprecated Javadoc tag.(ÁŞıû8‰¨ÒÌÊ1
+java:S1123>"(Add the missing @deprecated Javadoc tag.(ÁŞıû8ìÙ×Ê1
 o
-java:S3776A"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(¬¸Á8¨ÒÌÊ1
+java:S3776F"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(¬¸Á8”ìÙ×Ê1
 R
-java:S1133A"5Do not forget to remove this deprecated code someday.(¬¸Á8¨ÒÌÊ1
+java:S1133F"5Do not forget to remove this deprecated code someday.(¬¸Á8”ìÙ×Ê1
 E
-java:S1123A"(Add the missing @deprecated Javadoc tag.(¬¸Á8¨ÒÌÊ1
+java:S1123F"(Add the missing @deprecated Javadoc tag.(¬¸Á8”ìÙ×Ê1

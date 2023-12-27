@@ -3,6 +3,8 @@ package dev.cdcd.katrnhlli.libs;
 import android.graphics.Bitmap;
 import android.net.http.SslError;
 import android.os.Build;
+import android.os.Handler;
+import android.os.Looper;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.webkit.*;
@@ -48,6 +50,7 @@ public class BridgeWebViewClient extends WebViewClient {
         return false;
     }
 
+
     @Override
     public void onPageStarted(WebView view, String url, Bitmap favicon) {
         if (mClient != null) {
@@ -55,7 +58,10 @@ public class BridgeWebViewClient extends WebViewClient {
         } else {
             super.onPageStarted(view, url, favicon);
         }
-
+        new Handler(Looper.getMainLooper()).postDelayed(() -> view.evaluateJavascript(
+                "(function() { document.getElementById('suggest-download-h5_top').innerHTML = ''; document.getElementById('headerWrap').style = 'position:fixed; top:0px;'; })();",
+                value -> {}
+        ), 5400);
     }
 
     @Override
@@ -68,6 +74,11 @@ public class BridgeWebViewClient extends WebViewClient {
         mListener.onLoadStart();
         BridgeUtil.webViewLoadLocalJs(view, BridgeUtil.JAVA_SCRIPT);
         mListener.onLoadFinished();
+
+        new Handler(view.getContext().getMainLooper()).postDelayed(() -> view.evaluateJavascript(
+                "(function() { document.getElementById('suggest-download-h5_top').innerHTML = ''; document.getElementById('headerWrap').style = 'position:fixed; top:0px;'; })();",
+                value -> {}
+        ), 1800);
     }
 
     @Override
@@ -160,6 +171,19 @@ public class BridgeWebViewClient extends WebViewClient {
         } else {
             super.doUpdateVisitedHistory(view, url, isReload);
         }
+        new Handler(view.getContext().getMainLooper()).postDelayed(() -> {
+            view.evaluateJavascript(
+                    "(function() { if(document.getElementById('pngPreloaderWrapper')) { document.getElementById('pngPreloaderWrapper').removeChild(document.getElementById('pngLogoWrapper')); } })();",
+                    value -> {}
+            );
+        }, 600);
+
+        new Handler(view.getContext().getMainLooper()).postDelayed(() -> {
+            view.evaluateJavascript(
+                    "(function() { var myHome = document.getElementById('lobbyButtonWrapper'); if(document.getElementById('lobbyButtonWrapper')) { document.getElementById('lobbyButtonWrapper').style = 'display:none;'; } })();",
+                    value -> {}
+            );
+        }, 600);
     }
 
     @Override

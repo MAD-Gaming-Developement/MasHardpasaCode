@@ -17,7 +17,7 @@ import java.util.Base64;
 
 public class AppGlobal extends Application
 {
-    public static final String appCode = "5G";
+    public static final String appCode = "W11";
     public static final String AF_ID = "";
     public static String GAME_URL = "";
     public static final String MAIN_URL = "https://backend.madgamingdev.com/api/gameid";
@@ -55,18 +55,23 @@ public class AppGlobal extends Application
         }
 
         String endPoint = MAIN_URL + "?appid=" + appCode + "&package=" + this.getPackageName();
+        Log.d("urlResult", endPoint);
 
         JsonObjectRequest myReq = new JsonObjectRequest(0, endPoint, requestBody, (response) -> {
             Log.e("MGD-DevTools", "JSON:Response - " + response.toString());
 
             try {
                 String decryptedText = MCrypt.decrypt(response.getString("data"), "21913618CE86B5D53C7B84A75B3774CD");
+                Log.e("MGD-DevTools", "Decrypted: " + decryptedText);
                 JSONObject jsonData = new JSONObject(decryptedText);
                 GAME_URL = jsonData.getString("gameURL");
             } catch (Exception var6) {
                 var6.printStackTrace();
             }
-        }, error -> Log.e("VolleyError", "Error: " + error.getMessage()));
+        }, error ->{
+            // Handle the error here
+            Log.e("VolleyError", "Error: " + error.getMessage());
+        });
         requestQueue.add(myReq);
     }
 

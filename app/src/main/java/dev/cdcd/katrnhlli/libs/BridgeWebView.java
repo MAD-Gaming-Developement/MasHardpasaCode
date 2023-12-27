@@ -50,7 +50,10 @@ public class BridgeWebView extends WebView implements WebViewJavascriptBridge, B
     @SuppressLint("SetJavaScriptEnabled")
     private void init() {
         clearCache(true);
+        getSettings().setBuiltInZoomControls(true);
+        getSettings().setDisplayZoomControls(false);
         getSettings().setLoadsImagesAutomatically(true);
+        getSettings().setSupportMultipleWindows(true);
         getSettings().setDomStorageEnabled(true);
         getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
         getSettings().setJavaScriptEnabled(true);

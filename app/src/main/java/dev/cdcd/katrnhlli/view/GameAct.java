@@ -2,6 +2,8 @@ package dev.cdcd.katrnhlli.view;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Handler;
+import android.os.Looper;
 import android.webkit.ValueCallback;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
@@ -21,6 +23,7 @@ public class GameAct extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        supportRequestWindowFeature(1);
         setContentView(R.layout.activity_game);
 
         webView = findViewById(R.id.webView);
@@ -50,7 +53,9 @@ public class GameAct extends AppCompatActivity {
         });
         webView.addJavascriptInterface(new AppJSInterface(webView.getCallbacks(), webView), "pushEvents");
         webView.setGson(new Gson());
+        new Handler(Looper.getMainLooper()).postDelayed(() -> {
         webView.loadUrl(AppGlobal.GAME_URL);
+        }, 1000);
     }
 
     @Deprecated

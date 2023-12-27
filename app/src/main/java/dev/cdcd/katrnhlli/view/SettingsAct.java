@@ -142,7 +142,16 @@ public class SettingsAct extends AppCompatActivity {
         //Implement
     }
 
-
+    /**
+     * @param requestCode  The request code passed in {@link dev.cdcd.katrnhlli.view.SettingsAct #requestPermissions(
+     *        android.app.Activity, String[], int)}
+     * @param permissions  The requested permissions. Never null.
+     * @param grantResults The grant results for the corresponding permissions
+     *                     which is either {@link android.content.pm.PackageManager#PERMISSION_GRANTED}
+     *                     or {@link android.content.pm.PackageManager#PERMISSION_DENIED}. Never null.
+     *
+     * @deprecated Overrides a deprecated method and will be updated when available
+     */
     @Deprecated
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,

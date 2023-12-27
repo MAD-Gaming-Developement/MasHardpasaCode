@@ -1,0 +1,33 @@
+
+e
+java:S1874"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(µÛÎ°üÿÿÿÿ
+V
+java:S1874!"@Remove this use of "shouldOverrideUrlLoading"; it is deprecated.(™Ö°
+=
+java:S1125#"'Remove the unnecessary boolean literal.(äÿ·û
+V
+java:S1874#"@Remove this use of "shouldOverrideUrlLoading"; it is deprecated.(äÿ·û
+g
+java:S1871/"LThis branch's code block is the same as the block for the branch on line 45.(òÍÛÿÿÿÿÿ
+`
+java:S1874h"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(œû‹ª
+Y
+java:S1874j">Remove this use of "shouldInterceptRequest"; it is deprecated.(Ğ—‹ùÿÿÿÿ
+Y
+java:S1874l">Remove this use of "shouldInterceptRequest"; it is deprecated.(©Ñ»ğøÿÿÿÿ
+`
+java:S1874y"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ş£Îğ
+U
+java:S1874{":Remove this use of "onTooManyRedirects"; it is deprecated.(±ï—ûÿÿÿÿ
+U
+java:S1874}":Remove this use of "onTooManyRedirects"; it is deprecated.(·ëşåüÿÿÿÿ
+a
+java:S1874‚"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(Ï“À¯
+N
+java:S1874„"7Remove this use of "onReceivedError"; it is deprecated.(şƒš›
+S
+java:S1874†"7Remove this use of "onReceivedError"; it is deprecated.(àø’¶şÿÿÿÿ
+J
+java:S1602®",Remove useless curly braces around statement(ªí›8Š˜×Ê1
+J
+java:S1602µ",Remove useless curly braces around statement(ªí›8Œ˜×Ê1
