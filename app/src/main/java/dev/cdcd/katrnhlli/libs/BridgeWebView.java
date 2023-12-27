@@ -52,7 +52,6 @@ public class BridgeWebView extends WebView implements WebViewJavascriptBridge, B
         clearCache(true);
         getSettings().setLoadsImagesAutomatically(true);
         getSettings().setDomStorageEnabled(true);
-        getSettings().setUseWideViewPort(true);
         getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
         getSettings().setJavaScriptEnabled(true);
         getSettings().setJavaScriptCanOpenWindowsAutomatically(true);

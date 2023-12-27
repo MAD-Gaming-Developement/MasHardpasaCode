@@ -35,3 +35,5 @@ g
 7app/src/main/java/dev/cdcd/katrnhlli/gb/VolleyCall.java,4\f\4f70fe4303b5f974f926349dd1d4ce46b0edef69
 l
 <app/src/main/java/dev/cdcd/katrnhlli/libs/BridgeWebView.java,7\3\730899a8c32c23b9a9ad31a9972d57b955eaca6d
+m
+=app/src/main/java/dev/cdcd/katrnhlli/libs/DefaultHandler.java,c\6\c6f016c19ec1a70a74c1b9f6bb3c2839a67055a4
