@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CedGameNine</string>
+    <string name="AppsFlyerID">7odVQ4PMGwVguGQABWe9hS</string>
+    <string name="receive_notifications">Receive Notifications</string>
+    <string name="location_permission">Location Permission</string>
+    <string name="enable_ads">Enable ADs</string>
+    <string name="save">Save</string>
+    <string name="app_settings">App Settings</string>
+
+</resources>

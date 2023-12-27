@@ -1,0 +1,17 @@
+
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íõ¸¼8à§ÒÌÊ1
+r	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öåøñùÿÿÿÿ8à§ÒÌÊ1
+R
+java:S1874)"0Remove this use of "pickFile"; it is deprecated.(Â˜¦úÿÿÿÿ8¨ÒÌÊ1
+R
+java:S1874/"0Remove this use of "pickFile"; it is deprecated.(Â˜¦úÿÿÿÿ8¨ÒÌÊ1
+R
+java:S11339"5Do not forget to remove this deprecated code someday.(ÁŞıû8ˆ¨ÒÌÊ1
+E
+java:S11239"(Add the missing @deprecated Javadoc tag.(ÁŞıû8‰¨ÒÌÊ1
+o
+java:S3776A"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(¬¸Á8¨ÒÌÊ1
+R
+java:S1133A"5Do not forget to remove this deprecated code someday.(¬¸Á8¨ÒÌÊ1
+E
+java:S1123A"(Add the missing @deprecated Javadoc tag.(¬¸Á8¨ÒÌÊ1

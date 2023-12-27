@@ -1,0 +1,40 @@
+
+b
+java:S2095<"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(¯Ô½ğ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(ª­ß’şÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(²²Ôìÿÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ŸæËû
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÖÙ‰ùÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ëÉ®ğúÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ãÃ±Ä
+Z
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Øªöp
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ğ°›Èıÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ã‰šãúÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(µÂÂ²
+V	java:S125"<This block of commented-out lines of code should be removed.(…ÕÎ¯ùÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(µ–è¯ÿÿÿÿÿ
+E
+java:S2093:"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+T
+java:S3400Y"9Remove this method and declare a constant for this value.(Ö§”Óşÿÿÿÿ
+@
+java:S1172X"*Remove this unused method parameter "url".(›„Òß
+T
+java:S3400]"9Remove this method and declare a constant for this value.(Ö§”Óşÿÿÿÿ
+@
+java:S1172\"*Remove this unused method parameter "url".(ÌÌ´•
+T
+java:S3400a"9Remove this method and declare a constant for this value.(Ö§”Óşÿÿÿÿ
+G
+java:S1172`",Remove this unused method parameter "jsUrl".(À²°ûÿÿÿÿ

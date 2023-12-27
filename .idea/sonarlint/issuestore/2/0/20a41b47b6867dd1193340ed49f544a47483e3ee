@@ -1,0 +1,11 @@
+
+x
+java:S1450"]Remove the "defaultHandler" field and declare it as a local variable in the relevant methods.(×¤·§ùÿÿÿÿ
+D
+java:S1874p".Remove this use of "encode"; it is deprecated.(Êùë
+I
+java:S1874q".Remove this use of "encode"; it is deprecated.( Ãùßúÿÿÿÿ
+I
+java:S1874r".Remove this use of "encode"; it is deprecated.(¨óŒØüÿÿÿÿ
+h
+java:S3776}"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(áüíÍ

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        tools:context=".view.SettingsAct">
+
+    <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/app_settings"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/permissionNotifications"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/receive_notifications"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/permissionLocation"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/location_permission"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/permissionADs"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/enable_ads" />
+
+    <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"/>
+</LinearLayout>
